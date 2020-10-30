@@ -159,15 +159,17 @@ header nav {
 }
 
 .header-nav nav a{
-    padding: 5% 20%;
+    padding: 10% 40%;
     width: 100%;
     margin: 0 auto;
+    text-decoration: none;
+    color: black;
 }
 
 .highway{
     width: 100%;
     background-image: url(/img/jumbo.jpg);
-    height: 20vh;
+    height: 15vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -211,4 +213,55 @@ padding: 2% 5% 0;
 .boxes .box.c0{
     background-color: dodgerblue;
 }
+/*-----the about page-------------------------------*/
+.skylights{
+    background-image: url(/img/jumbo-about.png);
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+}
 
+.about{
+    margin:4%;
+    width:100%;
+}
+
+.midsect {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: baseline;
+width:100%;
+border-top: black dotted 1px;
+
+}
+.strategy, .working, .office, .meeting{
+    width:40%;
+    border-bottom: dotted black 1px;
+    margin: 4% 2%;
+    padding: 0 0 3%;
+
+}
+
+.learn{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding:2% 3%;
+    border: black solid 1px;
+    border-radius: 10%;
+    
+}
+
+.strategy p, .working p, .meeting p, .office p{
+    margin: 5% 0 5%;
+}
+/* ----------------Footer sect----------------*/
+
+.top-footer{
+    margin: 2% 6% 5%;
+    width: 100%;
+}
