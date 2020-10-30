@@ -150,7 +150,7 @@ header{
     display: flex;
     align-items: baseline;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
 }
 
 header nav {
@@ -160,20 +160,20 @@ header nav {
 
 .header-nav nav a{
     padding: 10% 40%;
-    width: 100%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 0% auto;
     text-decoration: none;
     color: black;
 }
 
 .highway{
-    width: 100%;
+    width: 90%;
     background-image: url(/img/jumbo.jpg);
     height: 15vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 0 auto;
+    margin: 1% auto;
 }
 
 .top-content{
@@ -220,8 +220,8 @@ padding: 2% 5% 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 0 auto;
-    width: 100%;
+    margin: 1% auto;
+    width: 90%;
 }
 
 .about{
@@ -239,7 +239,7 @@ border-top: black dotted 1px;
 
 }
 .strategy, .working, .office, .meeting{
-    width:40%;
+    width:46%;
     border-bottom: dotted black 1px;
     margin: 4% 2%;
     padding: 0 0 3%;
@@ -252,7 +252,7 @@ border-top: black dotted 1px;
     text-align: center;
     padding:2% 3%;
     border: black solid 1px;
-    border-radius: 10%;
+    border-radius: 15%;
     
 }
 
@@ -264,4 +264,7 @@ border-top: black dotted 1px;
 .top-footer{
     margin: 2% 6% 5%;
     width: 100%;
+}
+.top-footer p{
+    width: 90%;
 }
