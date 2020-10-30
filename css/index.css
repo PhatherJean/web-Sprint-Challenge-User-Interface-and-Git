@@ -144,3 +144,71 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*-------------My code-----------------------------*/
+
+header{
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    margin: 0 auto;
+}
+
+.header-nav nav a{
+    padding: 5% 20%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.highway{
+    width: 100%;
+    background-image: url(/img/jumbo.jpg);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.top-content{
+display: flex;
+justify-content: space-evenly;
+padding: 2% 5% 0;
+}
+
+.boxes .box.c1{
+    background-color: teal;
+}
+
+.boxes .box.c2{
+    background-color: gold;
+}
+.boxes .box.c3{
+    background-color:cadetblue;
+}
+.boxes .box.c4{
+    background-color:coral;
+}
+.boxes .box.c5{
+    background-color: crimson;
+}
+.boxes .box.c6{
+    background-color:forestgreen;
+}
+.boxes .box.c7{
+    background-color:darkorchid;
+}
+.boxes .box.c8{
+    background-color:hotpink;
+}
+.boxes .box.c9{
+    background-color:indigo;
+}
+.boxes .box.c0{
+    background-color: dodgerblue;
+}
+
